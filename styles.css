@@ -1,0 +1,9 @@
+.select-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.select-container label {
+    margin-bottom: 0.5em;
+}

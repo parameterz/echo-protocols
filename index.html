@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Echocardiography Protocols</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.slate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <header class="container">
+      <h1>Echocardiography Protocols</h1>
+      <h2>Clip-4-Clip</h2>
+    </header>
+
+    <nav class="container">
+        <div class="select-container">
+          <label for="protocol-select">Select Protocol:</label>
+          <select id="protocol-select">
+            <option value="ucsd-standard">UCSD: Standard Adult Protocol</option>
+            <option value="ra_rv">Parasternal RA/RV View</option>
+            <!-- Add more protocols here -->
+          </select>
+        </div>
+      </nav>
+
+    <main class="container" id="protocol-content">
+      <!-- Protocol content will be loaded here -->
+    </main>
+    <footer class="container">
+      <p>Non-Invasive Imaging Lab | Departmental Protocol</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
