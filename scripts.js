@@ -1,10 +1,15 @@
 $(document).ready(function() {
-    // Function to load protocol content
+    if (typeof marked !== 'function') {
+        console.error("marked.js is not loaded correctly.");
+        return;
+    }
+
     function loadProtocol(protocol) {
-        $("#protocol-content").load(`protocols/${protocol}.html`, function(response, status, xhr) {
-            if (status == "error") {
-                $("#protocol-content").html("<p>Protocol not found.</p>");
-            }
+        $.get(`protocols/${protocol}.md`, function(data) {
+            const html = marked(data);
+            const iconHtml = html.replace(/:crosshair:/g, '<i class="fas fa-ruler-combined"></i>');
+            $("#protocol-content").html(iconHtml);
+
             // Collapse all sections initially
             $(".protocol-section ul").hide();
 
@@ -12,6 +17,8 @@ $(document).ready(function() {
             $(".protocol-section h3").click(function() {
                 $(this).next("ul").slideToggle();
             });
+        }).fail(function() {
+            $("#protocol-content").html("<p>Protocol not found.</p>");
         });
     }
 
@@ -20,7 +27,7 @@ $(document).ready(function() {
 
     // Change event for protocol select
     $("#protocol-select").change(function() {
-        var protocol = $(this).val();
+        const protocol = $(this).val();
         loadProtocol(protocol);
     });
 });

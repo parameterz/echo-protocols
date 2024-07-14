@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Marked with jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+</head>
+<body>
+    <div id="content"></div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("Document is ready.");
+
+            // Check if marked is available
+            if (typeof marked !== 'function') {
+                console.error("marked.js is not loaded correctly.");
+                return;
+            } else {
+                console.log("marked.js is loaded correctly.");
+            }
+
+            // Use marked to parse markdown
+            const markdown = "# Marked with jQuery\n\nRendered by **marked** with **jQuery**.";
+            markdown += `## Section Title
+- Top-level item
+  - Nested item
+    - Further nested item`;
+    
+            try {
+                const html = marked.parse(markdown);
+                console.log("Markdown parsed successfully.");
+                document.getElementById('content').innerHTML = html;
+            } catch (e) {
+                console.error("Error parsing markdown: ", e);
+            }
+        });
+    </script>
+</body>
+</html>
