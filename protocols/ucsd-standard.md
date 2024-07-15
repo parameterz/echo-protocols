@@ -1,12 +1,13 @@
-## Resting Echocardiogram Protocol
-1. 2 beat capture (include 3 or more if tachycardic/rapid atrial fibrillation etc)
+## Intro
+1. 2 beat capture (include <mark>3 or more if AFIB</mark>/rapid rhythm)
 2. Doppler measurements with time component need to be measured at 100 mm/sec.
-3. ALL Doppler imaging (CW & PW) should be captured without a measurement(1st) and with (2nd) a measurement.
+3. ALL Doppler imaging (CW & PW) should be captured <mark>without a measurement(1st)</mark> and with (2nd) a measurement.
 4. Zoomed images should only be additional images
 5. Measurements to be taken are in italics and should be done during the exam in the order described
 6. This protocol is minimum standard for a normal patient and must be adjusted to each patient’s findings
 
-## Parasternal Long Axis (PLAX)
+
+## PLAX
 
 - 2-D image PLAX regular depth fill screen
   - LVIDd :meas:
@@ -21,14 +22,14 @@
 - Image the ascending aorta
   - SOV and Asc Ao diameter in end diastole :meas:
 
-## Parasternal RA/RV View
+## RA/RV 
 
 - 2-D image RA/RV View
 - Color Doppler of TV
 - Continuous wave Doppler of TV optimize for TR
   - TR peak velocity (measure ONLY if it is a full envelope) :meas:
 
-## Parasternal Short Axis (PSAX)
+## PSAX
 
 - 2-D at aortic valve level
   - Zoom of aortic valve
@@ -47,7 +48,7 @@
 
 - 2D image of A4C optimizing LV/RV size and relationship taken to orient reader to change of view
 
-## Apical 4 Chamber View (A4C) LV Function
+## A4C LV Focused
 
 - A4C LV chamber only (decrease depth) for function measurements, include ¼ of left atrium (Do not zoom) - Minimum of 2 loops
   - LV biplane diastolic volume :meas:
@@ -55,27 +56,29 @@
 - 3D Full Volume 
   - Acquisition and Analysis :meas:
 
-## Apical 2 Chamber View (A2C) LV Function
+## A2C LV Focused
 
 - A2C LV chamber only (decrease depth) for function measurements, include ¼ of left atrium (Do not zoom) - Minimum of 2 loops
   - LV biplane diastolic volume :meas:
   - LV biplane systolic volume :meas:
 
-## Apical Long Axis View (ALAX) LV Function
+## A3C LV Focused
 
 - LV chamber only (decrease depth) for function measurements, include ¼ of left atrium (Do not zoom) - Minimum of 2 loops
+
+## A3C 
 - 2-D image of ALAX optimizing LV endocardial borders and LV length (increase depth)
 - Color Doppler of mitral valve to include entire left atrium
 - Color Doppler of aortic valve
 
-## Apical 2 Chamber View (A2C)
+## A2C
 
 - 2-D image of A2C optimizing LV endocardial borders and LV length
 - Zoom left atrium
   - LA systolic volume :meas:
 - Color Doppler of mitral valve to include entire left atrium
 
-## Apical 4 Chamber View (A4C)
+## A4C
 
 - 2-D image of A4C optimizing LV endocardial borders and LV length
 - Zoom left atrium
@@ -97,7 +100,7 @@
 - Zoom RV free wall annulus and activate M-mode
   - TAPSE :meas:
 
-## Apical 5 Chamber View (A5C)
+## A5C
 
 - 2-D image Apical 5 chamber
 - Color Doppler of LVOT and aortic valve
@@ -105,7 +108,7 @@
   - LVOT VTI :meas:
 - Continuous wave Doppler of aortic valve
 
-## Apical 4 Chamber View (A4C)
+## A4C
 
 - 2-D image of Apical 4 chamber with attention to the RV free wall
 - Color Doppler of tricuspid valve
@@ -123,7 +126,7 @@
 - Continuous wave Doppler of TR
   - TR peak velocity (measure ONLY if it is a full envelope) :meas:
 
-## Subcostal View
+## SUB C
 
 - Subcostal 4 chamber view
 - Color Doppler of IAS
@@ -133,13 +136,13 @@
 - 2-D IVC with sniff
 - Pulsed Doppler of hepatic veins
 
-## Suprasternal Notch
+## SSN
 
 - 2-D Aortic Arch
 - Color flow Doppler of DAO
 - Continuous wave Doppler of DAO
 
-## Contrast imaging, as needed
+## Contrast Imaging, as needed
 
 - Minimum of 2 function loops for each view
   - Apical 4 chamber (decrease depth) for function measurements, include ¼ of left atrium 

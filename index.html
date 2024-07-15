@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="light dark" />
-    <title>Echocardiography Protocols</title>
+    <title>Clip4Clip Echocardiography Protocols</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.slate.min.css">
     <style>
         body {
-            font-size: 1.5em; /* Increase base font size */
+            font-size: x-large; /* Increase base font size */
             line-height: 1.6; /* Increase line height for better readability */
-            background-color: #121212; /* Dark background */
-            color: #ffffff; /* Light text */
+            padding-top: 6em; /* Space for the fixed header */
+            margin: 0; /* Remove default margin */
         }
 
         h1, h2, h3 {
@@ -20,19 +19,33 @@
             margin-bottom: 0.5em;
         }
 
-        h2 {
-            color: #5C7EF8;
-        }
-
         .container {
             padding: 1em;
         }
 
-        .select-container label, .select-container select {
-            font-size: 1.2em; /* Increase font size of labels and select elements */
+        .header-container {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #121212;
+            padding: 1em;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
 
-        #protocol-content ul {
+        .select-container {
+            margin-top: 1em;
+        }
+
+        .select-container select {
+            font-size: 1.2em; /* Increase font size of select element */
+            max-width: 600px; /* Limit the max width of the select element */
+            width: 100%; /* Make select element full width */
+            margin: 0 auto; /* Center align the select element */
+        }
+
+        #protocol-content ul, #protocol-content ol {
             padding-left: 1.2em; /* Increase padding for nested lists */
         }
 
@@ -47,40 +60,41 @@
         .fas {
             margin-right: 0.5em; /* Space between icons and text */
         }
+
+        main.container {
+            margin-top: 6em; /* Add margin to ensure content doesn't overlap with header */
+        }
     </style>
     <script src="https://kit.fontawesome.com/7111881540.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
-    <header class="container">
+    <header class="header-container">
         <h1>Echocardiography Protocols</h1>
-        <h2>Clip-4-Clip</h2>
-    </header>
-
-        <div class="container">
-            <form>
-                <fieldset>
-                <label for="protocol-select">Select Protocol:</label>
-                <select id="protocol-select">
-                    <option value="ucsd-standard">UCSD Standard Protocol</option>
-                    <option value="ra_rv">Parasternal RA/RV View</option>
-                    <!-- Add more protocols here -->
-                </select>
-                </fieldset>
-            </form>
+        <div class="select-container">
+            <select id="protocol-select">
+                <option value="" disabled selected>Select Protocol</option>
+                <option value="ucsd-standard">UCSD: Standard Protocol</option>
+                <option value="ucsd-achd"> UCSD: ACHD</option>
+                <option value ="ucsd-uea">UCSD: UEA</option>
+                <option value="scripps-aorticStenosis">Scripps: Aortic Stenosis</option>
+                <!-- Add more protocols here -->
+            </select>
         </div>
+    </header>
 
     <main class="container" id="protocol-content">
         <!-- Protocol content will be loaded here -->
     </main>
 
     <footer class="container">
-        <p>Dan Dyar, MA, RDCS, FASE | 2024</p>
+        <p>Dan Dyar, MA, RDCS, FASE | Echo Imaging Protocols | 2024</p>
     </footer>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             console.log("Document is ready.");
 
+            // Check if marked.js is loaded
             if (typeof marked === 'undefined') {
                 console.error("marked.js is not loaded correctly.");
                 return;
@@ -88,6 +102,7 @@
                 console.log("marked.js is loaded correctly.");
             }
 
+            // Function to load and parse protocol Markdown file
             function loadProtocol(protocol) {
                 fetch(`protocols/${protocol}.md`)
                     .then(response => {
@@ -97,15 +112,16 @@
                         return response.text();
                     })
                     .then(data => {
-                        // Replace placeholders with Font Awesome icons
+                        // Parse Markdown and replace placeholders with Font Awesome icons
                         let html = marked.parse(data);
-                        html = html.replace(/:crosshair:/g, '<i class="fa-solid fa-crosshairs"></i>');
-                        html = html.replace(/:meas:/g, '<i class="fa-solid fa-ruler"></i>');
+                        html = html.replace(/:crosshair:/g, '<i class="fas fa-crosshairs"></i>');
+                        html = html.replace(/:caliper:/g, '<i class="fas fa-ruler-combined"></i>');
+                        html = html.replace(/:meas:/g, '<i class="fas fa-ruler"></i>');
                         document.getElementById("protocol-content").innerHTML = html;
 
-                        // Collapse all direct UL elements following H2 elements initially
-                        document.querySelectorAll("#protocol-content h2 + ul").forEach(ul => {
-                            ul.style.display = 'none';
+                        // Collapse all direct UL or OL elements following H2 elements initially
+                        document.querySelectorAll("#protocol-content h2 + ul, #protocol-content h2 + ol").forEach(element => {
+                            element.style.display = 'none';
                         });
 
                         // Toggle visibility on section header click
@@ -113,7 +129,7 @@
                             h2.addEventListener("click", function() {
                                 let nextElement = this.nextElementSibling;
                                 while (nextElement && nextElement.tagName !== 'H2') {
-                                    if (nextElement.tagName === 'UL') {
+                                    if (nextElement.tagName === 'UL' || nextElement.tagName === 'OL') {
                                         if (nextElement.style.display === 'none') {
                                             nextElement.style.display = 'block';
                                         } else {
@@ -131,13 +147,20 @@
                     });
             }
 
-            // Load default protocol
-            loadProtocol("ucsd-standard");
+            // Load default protocol if one is selected by default
+            const defaultProtocol = document.getElementById("protocol-select").value;
+            if (defaultProtocol) {
+                loadProtocol(defaultProtocol);
+            }
 
-            // Change event for protocol select
+            // Change event for protocol select dropdown
             document.getElementById("protocol-select").addEventListener("change", function() {
                 const protocol = this.value;
-                loadProtocol(protocol);
+                if (protocol) {
+                    loadProtocol(protocol);
+                } else {
+                    document.getElementById("protocol-content").innerHTML = "<p>Please select a protocol to view its content.</p>";
+                }
             });
         });
     </script>
