@@ -16,7 +16,7 @@
 ## PW Doppler
 
 - Doppler of the descending thoracic aorta and abdominal aorta
-- Use a lower color scale to look fro diastolic flow reversal
+- Use a lower color scale to look for low velocity diastolic flow reversal
 - PW Doppler should emphasize looking for holodiastolic flow reversal
 - decrease filters to make sure low velocity info is not discarded
 
