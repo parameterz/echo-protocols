@@ -41,15 +41,20 @@
 ## Dimensionless Index
 
 - For an AVR, calculate the DI like this:
-- ![AVR DVI](../img/SAVR-DVI-Calculation.png) courtesy of Bonita Anderson/ASE
+- ![AVR DVI](./img/SAVR-DVI-Calculation.png) courtesy of Bonita Anderson/ASE
 
 ## EOA
 
-- ![AVR EOA Calculation](../img/SAVR-EOA-Calculation.png) courtesy of Bonita Anderson/ASE
+- ![AVR EOA Calculation](./img/SAVR-EOA-Calculation.png) courtesy of Bonita Anderson/ASE
 
 ## Acceleration Time Algorithm
 
-- ![AVR Algorithm](../img/AVR-Algorithm.png)
+- ![AVR Algorithm](./img/AVR-Algorithm.png)
+
+## PPM
+
+- Severe: EOAi &lt; 0.65 cm<sup>2</sup>/m<sup>2</sup>
+- Insignificant: EOAi &gt; 0.85 cm<sup>2</sup>/m<sup>2</sup>
 
 <hr/>
 
@@ -87,8 +92,8 @@
 ## Dimensionless Index
 
 - For an MVR, calculate the DI like this:
-- ![MVR DVI](../img/MVR-DVI-Calculation.png)
+- ![MVR DVI](./img/MVR-DVI-Calculation.png)
 
 ## EOA
 
-- ![MVR EOA Calculation](../img/MVR-EOA-Calculation.png)
+- ![MVR EOA Calculation](./img/MVR-EOA-Calculation.png)

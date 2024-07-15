@@ -5,10 +5,11 @@
 ## General Notes
 
 - Ideally, the <mark>order</mark> for UEAs is put in before you get it from the PYXIS
-- <i class="fa-solid fa-circle-exclamation"></i>Important: screen for <mark>allergies</mark>
+- <i class="fa-solid fa-circle-exclamation"></i> Important: screen for <mark>allergies & contraindications</mark>
   - perflutren (the inert gas in the microbubble)
   - previous reaction
   - PEG (polyethelene glycol)
+  - pregnancy
 - Unless looking specifically at the apex (thrombus?), the <mark>focus</mark> should be deep
 - obtain images:
   - A4C
