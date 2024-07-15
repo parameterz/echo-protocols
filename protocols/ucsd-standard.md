@@ -145,10 +145,10 @@
 ## Contrast Imaging, as needed
 
 - Minimum of 2 function loops for each view
-  - Apical 4 chamber (decrease depth) for function measurements, include ¼ of left atrium 
-  - Apical 2 chamber (decrease depth) for function measurements, include ¼ of left atrium 
-  - Apical long axis (decrease depth) for function measurements, include ¼ of left atrium 
-  - Parasternal long axis 
-  - Parasternal short axis at the level of the papillary muscles 
+  - A4C LV Focused for function measurements, include ¼ of left atrium 
+  - A2C LV Focused for function measurements, include ¼ of left atrium 
+  - A3C LV Focused for function measurements, include ¼ of left atrium 
+  - PLAX
+  - PSAX
   - RV function, as needed
   - Volume tracings for EF :meas:
