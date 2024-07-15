@@ -5,7 +5,7 @@
 ## General Notes
 
 - Ideally, the <mark>order</mark> for UEAs is put in before you get it from the PYXIS
-- <i class="fa-solid fa-circle-exclamation"></i> Important: screen for <mark>allergies & contraindications</mark>
+- <i class="fa-solid fa-triangle-exclamation"></i> Important: screen for <mark>allergies & contraindications</mark>
   - perflutren (the inert gas in the microbubble)
   - previous reaction
   - PEG (polyethelene glycol)

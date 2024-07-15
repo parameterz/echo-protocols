@@ -97,3 +97,8 @@
 ## EOA
 
 - ![MVR EOA Calculation](./img/MVR-EOA-Calculation.png)
+
+## PPM
+
+- Severe: EOAi &lt; 0.9 cm<sup>2</sup>/m<sup>2</sup>
+- Insignificant: EOAi &gt; 1.2 cm<sup>2</sup>/m<sup>2</sup>- 

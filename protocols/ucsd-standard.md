@@ -10,9 +10,11 @@
 ## PLAX
 
 - 2-D image PLAX regular depth fill screen
+- Linear Measurements: Diastole
+  - IVSd :meas:
   - LVIDd :meas:
-  - LVSWd :meas:
   - LVPWd :meas:
+- Linear Measurements: Systole
   - LVIDs at smallest size, with mitral and aortic valves closed :meas:
   - LAs :meas:
 - Zoom aortic valve
