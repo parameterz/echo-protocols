@@ -43,6 +43,49 @@ The assessment of AS is all about careful attention to the LVOT diameter (area) 
 </tbody></table>
 </article>
 
+## CW Doppler 
+
+- CW Doppler of the aortic valve (AoV) from the apical windows is mandatory. Must use PEDOF probe from the apicals, SSN and RSB windows for all AS/AVR/TAVR patients.
+- Acquire and label PEDOF with location
+- If a signal is unobtainable, annotate, “Location Attempt,” e.g., “SSN Attempt.”
+
+
+## PW Doppler 
+
+- Place PW Doppler sample volume 0.5-1.0 cm below the aortic valve annulus
+- For commercial TAVRs and AVR, place PW Doppler sample volume below and outside, and not within the prosthetic valve stent
+
+## Peak and mean gradients
+
+- Measure and report peak and mean pressure gradients
+- If LVOT velocity is > 1.5m/s, use the extended modified Bernoulli formula 4(V2² - V1²) for peak/mean gradients
+
+## LVOT diameter
+
+- Measure the LVOT diameter
+- For <mark>native AoV</mark>, measure LVOT diameter basically at the aortic annulus. 
+- OK to use the previous LVOT diameter measurement to be consistent, unless the previous measurement was incorrect. 
+- For <mark>prosthetic AVR</mark>, measure “LVOT” diameter from outer prosthesis to outer prosthesis (leading edge to trailing edge). 
+
+## Dimensionless Index
+
+- Calculate and report Dimensionless Index as LVOT VTI/AoV VTI 
+
+## Continuity Equation
+
+- Calculate and report Continuity Equation derived aortic valve area (AVA) as well as indexed area for all patients
+
+## Fallback: Planimetry <i class="fa-solid fa-dumpster-fire"></i>
+
+- If AVA is unobtainable due to inadequate CW Doppler of the AoV, trace the AoV area by 2D planimetry from PSAX or by using 3D guidance. 
+- Report as “AVA is ____ cm2 by 2D trace
+
+## BAV
+
+- If the AoV is bicuspid, check for associated AAO dilation or coarctation
+
+
+
 ## LFLG AS
 
 - Low flow (SVi < 35 ml/m2>) and low gradient (gradient < 40 mmHg>) but with an AVA of < 1.0 cm2
