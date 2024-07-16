@@ -7,6 +7,7 @@
   - Enter the alaising velocity (usually "bottom")
   - this way, the EROA and RVol are shown as you complete the PISA radius measurement
   - start the PISA radius measurment at the shell & move toward orifice; use the *hide/show color* to identify the orifice
+- ![4567](./img/MR-4567.jpeg)
 
 ## VCW
 
@@ -45,8 +46,13 @@
 
 ## LV Size & Fx
 
+- EF &lt;50% with severe MR is _decompensated_
+
 ## RVSP
 
 ## Qualitative ...
 
+- V cut-off sign
+- E-dominant inflow
+- Pulmonary Vein Doppler S reversal!!
 - ![MR Qualitative Signs](./img/MR-Qualitative-Signs.jpeg)
