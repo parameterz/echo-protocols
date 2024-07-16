@@ -57,6 +57,7 @@
   - LV biplane systolic volume :meas:
 - 3D Full Volume 
   - Acquisition and Analysis :meas:
+- Sweep for thrombus
 
 ## A2C LV Focused
 
