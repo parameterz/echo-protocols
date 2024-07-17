@@ -52,7 +52,8 @@ The assessment of AS is all about careful attention to the LVOT diameter (area) 
 
 ## PW Doppler 
 
-- Place PW Doppler sample volume below the aortic valve annulus, with a hint of the aortic valve closure click
+- Can Use A5C or A3C
+- Place PW Doppler sample volume at valve level and then move apically until valve noise or “clicks” are no longer detected
 
 ## Peak and mean gradients
 
@@ -63,6 +64,16 @@ The assessment of AS is all about careful attention to the LVOT diameter (area) 
 - For <mark>native AoV</mark>, measure LVOT diameter basically at the aortic annulus. 
 - OK to use the previous LVOT diameter measurement to be consistent, unless the previous measurement was incorrect. 
 - For <mark>prosthetic AVR</mark>, measure “LVOT” diameter from outer prosthesis to outer prosthesis (leading edge to trailing edge). 
+- Check if the LVOT diameter is reasonable, based on [Size-Adjusted Left Ventricular Outflow Tract Diameter Reference Values](https://onlinejase.com/article/S0894-7317(09)00145-X/fulltext):
+<div id="lvot-calculator">
+    <form>
+        <label for="bsa-lvot">BSA:</label>
+        <input type="number" id="bsa-lvot" name="bsa-lvot">
+        <button type="button" onclick="calculateLVOT()">Calculate</button>
+    </form>
+    <p id="lvotResult"></p>
+</div>
+
 
 ## Dimensionless Index
 
