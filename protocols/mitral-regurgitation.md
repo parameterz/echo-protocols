@@ -13,7 +13,7 @@
 
 - Zoom MV
 - Color scale at/near max for best FR
-- Measure narrowest portion 
+- Measure the narrowest jet diameter at or just on the atrial side of the valve
 - Mild: &leq;0.3 cm
 - Severe: &geq;0.7 cm
 
@@ -49,6 +49,8 @@
 - EF &lt;50% with severe MR is _decompensated_
 
 ## RVSP
+
+- Use of UEAs can help tease out subtle TR signals
 
 ## Qualitative ...
 

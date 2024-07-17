@@ -25,5 +25,3 @@
 
 - Use of UEAs can help tease out subtle TR signals
 
-
-## 3D !

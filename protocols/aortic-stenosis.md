@@ -52,17 +52,14 @@ The assessment of AS is all about careful attention to the LVOT diameter (area) 
 
 ## PW Doppler 
 
-- Place PW Doppler sample volume 0.5-1.0 cm below the aortic valve annulus
-- For commercial TAVRs and AVR, place PW Doppler sample volume below and outside, and not within the prosthetic valve stent
+- Place PW Doppler sample volume below the aortic valve annulus, with a hint of the aortic valve closure click
 
 ## Peak and mean gradients
 
-- Measure and report peak and mean pressure gradients
 - If LVOT velocity is > 1.5m/s, use the extended modified Bernoulli formula 4(V2² - V1²) for peak/mean gradients
 
 ## LVOT diameter
 
-- Measure the LVOT diameter
 - For <mark>native AoV</mark>, measure LVOT diameter basically at the aortic annulus. 
 - OK to use the previous LVOT diameter measurement to be consistent, unless the previous measurement was incorrect. 
 - For <mark>prosthetic AVR</mark>, measure “LVOT” diameter from outer prosthesis to outer prosthesis (leading edge to trailing edge). 
@@ -83,6 +80,8 @@ The assessment of AS is all about careful attention to the LVOT diameter (area) 
 ## BAV
 
 - If the AoV is bicuspid, check for associated AAO dilation or coarctation
+- [Sievers Categories](https://www.sciencedirect.com/science/article/pii/S0022522307002371)
+- ![Sieveres BAV Categories](./img/Sievers-BAV.png)
 
 
 
