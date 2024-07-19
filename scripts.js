@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 html = html.replace(/:crosshair:/g, '<i class="fas fa-crosshairs"></i>');
                 html = html.replace(/:caliper:/g, '<i class="fas fa-ruler-combined"></i>');
                 html = html.replace(/:meas:/g, '<i class="fas fa-ruler"></i>');
+                html = html.replace(/:alert:/g, '<i class="fa-solid fa-triangle-exclamation"></i>');
                 protocolContent.innerHTML = html;
 
                 // Collapse all direct UL or OL elements following H2 elements initially

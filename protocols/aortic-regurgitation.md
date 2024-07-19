@@ -2,7 +2,6 @@
 
 - The emphasis should be on detecting severe AR and assessing LV <mark>size</mark> & function; volume overload _should_ result in a dilated ventricle with hyperdynamic function.
 - ![JACC AR Guideline](./img/AR-JACC-Guideline.jpg)
-- [2020 ACC/AHA Guidelines](https://www.jacc.org/doi/10.1016/j.jacc.2020.11.018)
 
 ## Vena Contracta Width (VCW)
 
@@ -53,4 +52,9 @@
 
 - High risk is indicated if:
   - Indexed LV end-systolic diameter &gt;20-25 mm/m<sup>2</sup> 
-  - :alert: LVEDVi &gt;45 ml/m<sup>2</sup> 
+  - :alert: LVESVi &gt;45 ml/m<sup>2</sup> 
+
+## References
+
+- [2020 ACC/AHA Practice Guidelines](https://www.jacc.org/doi/10.1016/j.jacc.2020.11.018)
+- [Association of Left Ventricular Volume in Predicting Clinical Outcomes in Patients with Aortic Regurgitation](https://www.onlinejase.com/article/S0894-7317(20)30769-0/abstract)
