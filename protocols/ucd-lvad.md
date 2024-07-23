@@ -2,9 +2,10 @@
 
 - Echo assessment of patients on LVAD support is often focused on the degree of LV _unloading_ (aortic valve opening? septal position?) and RV function.
 
-## ANNOTATE
+## ANNOTATION SCREEN
 
-- Annotations of pump type/speed/output can remain on the screeen throughout
+- Annotation of pump type/speed/output 
+- can remain on the screeen throughout (?)
 
 ## PLAX
 
