@@ -30,7 +30,7 @@
 - Theare are 2 VialMixers: 
   - workroom 
   - clean utility
-- empty 1.3 cc from a 10cc saline syringe (syringe should now have 8.ml saline) and draw up 1.3 ml from the activated Definity bottle
+- empty 1.3 cc from a 10cc saline syringe (syringe should now have 8.7 ml saline) and draw up 1.3 ml from the activated Definity bottle
 - mix gently
 - hold syringe upright, tap, and expell any air
 - connect Definity/saline preparation to IV 
