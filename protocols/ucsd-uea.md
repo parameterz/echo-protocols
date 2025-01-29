@@ -30,10 +30,13 @@
 - Theare are 2 VialMixers: 
   - workroom 
   - clean utility
-- empty ~2cc from a 10cc saline syringe and draw up the contents from the Definity bottle
+- empty 1.3 cc from a 10cc saline syringe (syringe should now have 8.ml saline) and draw up 1.3 ml from the activated Definity bottle
 - mix gently
 - hold syringe upright, tap, and expell any air
-- connect Definity/saline preparation to IV and use small (0.5cc), slow pushes
+- connect Definity/saline preparation to IV 
+- inject 1-2 ml slowly over 10-20 seconds
+- additional small doses (0.5 ml) can be given slowly as needed
+
 
 - UCSD-specific recommendations for Definity administration:
   - Remove 0.5mL from 10ml normal saline flush syringe
@@ -50,9 +53,11 @@
 ## Definity: Settings
 
 - Philips
-  - Use the Contrast setting
+  - Use the Contrast setting: LVO
   - MI should be <mark>0.16</mark>-ish
-  - Optimize the <mark>frequency</mark>
+  - Optimize the <mark>frequency</mark> (usually as low as it goes; watch the MI!)
+  - Persistence: MED
+  - Focus: usually at MV annulus unless specifically looking at apex (watch the MI!)
 
 - GE
   - details needed
