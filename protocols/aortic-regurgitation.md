@@ -2,6 +2,7 @@
 
 - The emphasis should be on detecting severe AR and assessing LV <mark>size</mark> & function; volume overload _should_ result in a dilated ventricle with hyperdynamic function.
 - ![JACC AR Guideline](./img/AR-JACC-Guideline.jpg)
+- ![BSE Algorithm](./img/BSE_AI_Algo./png)
 
 ## Vena Contracta Width (VCW)
 
